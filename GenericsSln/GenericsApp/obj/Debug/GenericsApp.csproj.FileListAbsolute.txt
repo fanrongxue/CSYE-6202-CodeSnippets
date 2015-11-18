@@ -1,0 +1,5 @@
+D:\NEU\CSYE 6202\Spikes\Generics\GenericsSln\GenericsApp\bin\Debug\GenericsApp.exe.config
+D:\NEU\CSYE 6202\Spikes\Generics\GenericsSln\GenericsApp\bin\Debug\GenericsApp.exe
+D:\NEU\CSYE 6202\Spikes\Generics\GenericsSln\GenericsApp\bin\Debug\GenericsApp.pdb
+D:\NEU\CSYE 6202\Spikes\Generics\GenericsSln\GenericsApp\obj\Debug\GenericsApp.exe
+D:\NEU\CSYE 6202\Spikes\Generics\GenericsSln\GenericsApp\obj\Debug\GenericsApp.pdb
