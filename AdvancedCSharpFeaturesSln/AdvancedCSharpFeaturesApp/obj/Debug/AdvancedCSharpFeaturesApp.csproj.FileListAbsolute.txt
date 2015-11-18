@@ -1,5 +1,0 @@
-D:\NEU\CSYE 6202\Spikes\AdvancedCSharpFeatures\AdvancedCSharpFeaturesSln\AdvancedCSharpFeaturesApp\bin\Debug\AdvancedCSharpFeaturesApp.exe.config
-D:\NEU\CSYE 6202\Spikes\AdvancedCSharpFeatures\AdvancedCSharpFeaturesSln\AdvancedCSharpFeaturesApp\bin\Debug\AdvancedCSharpFeaturesApp.exe
-D:\NEU\CSYE 6202\Spikes\AdvancedCSharpFeatures\AdvancedCSharpFeaturesSln\AdvancedCSharpFeaturesApp\bin\Debug\AdvancedCSharpFeaturesApp.pdb
-D:\NEU\CSYE 6202\Spikes\AdvancedCSharpFeatures\AdvancedCSharpFeaturesSln\AdvancedCSharpFeaturesApp\obj\Debug\AdvancedCSharpFeaturesApp.exe
-D:\NEU\CSYE 6202\Spikes\AdvancedCSharpFeatures\AdvancedCSharpFeaturesSln\AdvancedCSharpFeaturesApp\obj\Debug\AdvancedCSharpFeaturesApp.pdb
