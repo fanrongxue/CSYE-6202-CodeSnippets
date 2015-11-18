@@ -1,0 +1,13 @@
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\bin\Debug\LogonScreenApp.exe.config
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\bin\Debug\LogonScreenApp.exe
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\bin\Debug\LogonScreenApp.pdb
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\MainWindow.g.cs
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\App.g.cs
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp_MarkupCompile.cache
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp_MarkupCompile.lref
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\MainWindow.baml
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp.g.resources
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp.Properties.Resources.resources
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp.csproj.GenerateResource.Cache
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp.exe
+D:\NEU\CSYE 6202\Spikes\WPF\LogonScreenSln\LogonScreenApp\obj\Debug\LogonScreenApp.pdb

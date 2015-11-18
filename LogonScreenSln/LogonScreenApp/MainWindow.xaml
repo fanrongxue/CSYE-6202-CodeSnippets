@@ -1,0 +1,17 @@
+﻿<Window x:Class="LogonScreenApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogonScreenApp"
+        mc:Ignorable="d"
+        Title="Super Hero Power Stats" Height="350" Width="525" WindowStartupLocation="CenterScreen" MaxHeight="350" MaxWidth="525" MinHeight="350" MinWidth="525" ResizeMode="NoResize" Background="#FF2E2929">
+    <Grid MinHeight="350" MaxHeight="350" MaxWidth="525" MinWidth="525">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="10,29,0,0" VerticalAlignment="Top" Width="70" MouseLeftButtonDown="HandleSupermanMouseLeftButtonDown" Source="images/Superman.PNG"/>
+        <Image x:Name="image_Copy" HorizontalAlignment="Left" Height="100" Margin="152,29,0,0" VerticalAlignment="Top" Width="70" MouseLeftButtonDown="HandleInvisibleWomanMouseLeftButtonDown" Source="images/InvisibleWoman.PNG"/>
+        <Image x:Name="image_Copy1" HorizontalAlignment="Left" Height="100" Margin="433,29,0,0" VerticalAlignment="Top" Width="70" MouseLeftButtonDown="HandleIronmanMouseLeftButtonDown" Source="images/Ironman.PNG"/>
+        <Image x:Name="image_Copy2" HorizontalAlignment="Left" Height="100" Margin="293,29,0,0" VerticalAlignment="Top" Width="70" MouseLeftButtonDown="HandleHulkMouseLeftButtonDown" Source="images/Hulk.PNG"/>
+        <Image x:Name="SuperStatsImage" HorizontalAlignment="Left" Height="183" Margin="10,134,0,0" VerticalAlignment="Top" Width="493" Stretch="Fill"/>
+
+    </Grid>
+</Window>
