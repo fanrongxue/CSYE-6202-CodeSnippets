@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+	<!--<Product Code = "AAPL">-->
+	<Product>
+		<!--Apple-->
+		<!--<Code = "AAPL"/>-->
+		<Code>"AAPL"</Code>
+		<Description>"IPhoneS"</Description>
+		<Price>199.99</Price>
+	</Product>
+
+	<Product>
+		<!--Samsung-->
+		<Code>"KRX"</Code>
+		<Description>"Galaxy"</Description>
+		<Price>199.90</Price>
+	</Product>
+
+	<Product>
+		<!--LG-->
+		<Code>"LG"</Code>
+		<Description>"G4"</Description>
+		<Price>189.99</Price>
+	</Product>
+</Products>
