@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingDataTableFromGenericList", "ModelingDataTableFromGenericList\ModelingDataTableFromGenericList.csproj", "{1C4F1C80-FABA-4E65-8C18-DDC2011EC1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataAdapterDataSetExample", "SimpleDataAdapterDataSetExample\SimpleDataAdapterDataSetExample.csproj", "{C5312925-C460-4E6A-AEFA-B71FC74EFD7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4F1C80-FABA-4E65-8C18-DDC2011EC1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F1C80-FABA-4E65-8C18-DDC2011EC1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F1C80-FABA-4E65-8C18-DDC2011EC1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F1C80-FABA-4E65-8C18-DDC2011EC1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5312925-C460-4E6A-AEFA-B71FC74EFD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5312925-C460-4E6A-AEFA-B71FC74EFD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5312925-C460-4E6A-AEFA-B71FC74EFD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5312925-C460-4E6A-AEFA-B71FC74EFD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
