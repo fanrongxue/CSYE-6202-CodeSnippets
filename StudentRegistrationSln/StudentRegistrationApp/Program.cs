@@ -13,24 +13,27 @@ namespace StudentRegistrationApp
 		/// The main entry point for the application.
 		/// </summary>
 		[STAThread]
-		static void Main()
-		{
-			//Application.EnableVisualStyles();
-			//Application.SetCompatibleTextRenderingDefault(false);
-			//Application.Run(new StudentRegistrationForm());
+		
 
-			IModel model = new Model();
-			IView view = new StudentRegistrationForm();
-			var presenter = new Presenter(model, view);
+            static void Main()
+        {
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new StudentRegistrationForm());
 
-			//var form = view as StudentRegistrationForm;
+            IModel model = new Model();
+            // IView view = new StudentRegistrationForm();
+            IView view = new LoginForm();
+            var presenter = new Presenter(model, view);
 
-			//if (form != null)
-			//{
-			//	form.ShowDialog();
-			//}
+            //var form = view as StudentRegistrationForm;
 
-			presenter.Show();
-		}
-	}
+            //if (form != null)
+            //{
+            //	form.ShowDialog();
+            //}
+
+            presenter.ShowLoginForm();
+        }
+    }
 }

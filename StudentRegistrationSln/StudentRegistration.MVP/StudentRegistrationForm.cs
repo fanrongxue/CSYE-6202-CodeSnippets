@@ -14,10 +14,14 @@ namespace StudentRegistration.MVP
 	{
 
 		public event EventHandler DataChanged;
+        private new List<Student> students = new List<Student>()
+            {
+                new Student("111-11-1212", "Bart", "Simpson", "Information Systems", "Full Time"),
+                new Student("123-12-1234", "Maggie", "Simpson", "International Affairs", "Part Time"),
+            };
+        #region Constructors
 
-		#region Constructors
-
-		public StudentRegistrationForm()
+        public StudentRegistrationForm()
 		{
 			InitializeComponent();
 			Init();
@@ -41,22 +45,18 @@ namespace StudentRegistration.MVP
 				"Professional Studies", "Psychology", "Public Administration" });
 		}
 
-		// since we don't know ADO.NET and/or File I/O we will get static mock data
-		private void LoadDataGridWithMockData()
-		{
-			var mockStudentList = new List<Student>()
-			{
-				new Student("111-11-1212", "Bart", "Simpson", "Information Systems", "Full Time"),
-				new Student("123-12-1234", "Maggie", "Simpson", "International Affairs", "Part Time"),
-			};
+        // since we don't know ADO.NET and/or File I/O we will get static mock data
+        private void LoadDataGridWithMockData()
+        {
 
-			// dirty workaround to make sure that we can bind to the static mock list
-			var bindingList = new BindingList<Student>(mockStudentList);
-			var source = new BindingSource(bindingList, null);
-			dataGridViewStudents.DataSource = source;
-		}
 
-		private void LoadDefaults()
+            // dirty workaround to make sure that we can bind to the static mock list
+            var bindingList = new BindingList<Student>(students);
+            var source = new BindingSource(bindingList, null);
+            dataGridViewStudents.DataSource = source;
+        }
+
+        private void LoadDefaults()
 		{
 			radioButtonFullTime.Select();
 			comboBoxDepartment.SelectedIndex = 0;
@@ -75,9 +75,10 @@ namespace StudentRegistration.MVP
 
 				comboBoxDepartment.SelectedIndex = comboBoxDepartment.Items.IndexOf(row.Cells[3].Value.ToString());
 
-				// enrollment type selection driven by the grid itself
-				var enrollmentType = row.Cells[4].Value.ToString();
-				if (radioButtonFullTime.Text == enrollmentType)
+                // enrollment type selection driven by the grid itself
+         
+                var enrollmentType = row.Cells[4].Value.ToString();
+                if (radioButtonFullTime.Text == enrollmentType)
 				{
 					radioButtonFullTime.Checked = true;
 				}
@@ -87,5 +88,110 @@ namespace StudentRegistration.MVP
 				}
 			}
 		}
-	}
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Are you sure want to remove this student?", "Remove Student Registration Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.OK)
+            {
+
+                foreach (DataGridViewRow row in dataGridViewStudents.SelectedRows)
+                {
+                    String stuId = row.Cells[0].Value.ToString();
+                    foreach (Student st in students)
+                    {
+
+                        if (st.StudentID == stuId)
+                        {
+                            students.Remove(st);
+                            this.dataGridViewStudents.DataSource = null;
+                            LoadDataGridWithMockData();
+                            return;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String id= this.textBox2.Text.Trim();
+            String fstName = this.textBox3.Text.Trim();
+            String lstName = this.textBox4.Text.Trim();
+            String department = this.comboBoxDepartment.SelectedItem.ToString();
+            String etype;
+            if (this.radioButtonFullTime.Checked == true)
+            {
+                etype = this.radioButtonFullTime.Text;
+            }
+            else {
+                etype = this.radioButtonPartTime.Text;
+            }
+            foreach (Student stx in students)
+            {
+                if (stx.StudentID == id)
+                {
+                    MessageBox.Show("Student ID can not be repeated");
+                    return;
+                }
+
+            }
+
+            Student st = new Student(id, fstName, lstName, department, etype);
+            students.Add(st);
+            MessageBox.Show("sucess");
+            this.dataGridViewStudents.DataSource = null;
+            LoadDataGridWithMockData();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Are you sure want to update this student?", "remove", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dr == DialogResult.OK)
+            {
+                foreach (DataGridViewRow row in dataGridViewStudents.SelectedRows)
+                {
+                    String stuId = row.Cells[0].Value.ToString();
+                    foreach (Student st in students)
+                    {
+
+                        if (st.StudentID == stuId)
+                        {
+                            students.Remove(st);
+                            String sutID = this.textBox2.Text.Trim();
+                            String fstName = this.textBox3.Text.Trim();
+                            String lstName = this.textBox4.Text.Trim();
+                            String cmbDpt = this.comboBoxDepartment.Text.Trim();
+                            String etype;
+                            if (this.radioButtonFullTime.Checked == true)
+                            {
+                                etype = this.radioButtonFullTime.Text;
+                            }
+                            else
+                            {
+                                etype = this.radioButtonPartTime.Text;
+                            }
+
+                            Student st1 = new Student(sutID, fstName, lstName, cmbDpt, etype);
+                            students.Add(st1);
+                            this.dataGridViewStudents.DataSource = null;
+                            LoadDataGridWithMockData();
+                            return;
+                        
+                        }
+
+                    }
+                }
+            }
+        }
+
+        private void radioButtonFullTime_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
