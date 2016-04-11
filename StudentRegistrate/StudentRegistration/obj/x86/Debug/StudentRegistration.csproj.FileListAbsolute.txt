@@ -1,0 +1,39 @@
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\bin\Debug\StudentRegistration.exe
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\bin\Debug\StudentRegistration.pdb
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\MainWindow.baml
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\MainWindow.g.cs
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\App.g.cs
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration_MarkupCompile.cache
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.g.resources
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.Properties.Resources.resources
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.csproj.GenerateResource.Cache
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.exe
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.pdb
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.baml
+c:\users\longcz\documents\visual studio 2010\Projects\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.g.cs
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.exe
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.pdb
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\bin\Debug\StudentRegistration.exe
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\bin\Debug\StudentRegistration.pdb
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\MainWindow.baml
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.baml
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.g.cs
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\App.g.cs
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration_MarkupCompile.cache
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.g.resources
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.Properties.Resources.resources
+C:\Users\Longcz\Desktop\StudentRegistration\StudentRegistration\obj\x86\Debug\StudentRegistration.csproj.GenerateResource.Cache
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration.exe
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration.pdb
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\bin\Debug\StudentRegistration.exe
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\bin\Debug\StudentRegistration.pdb
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\MainWindow.baml
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.baml
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistrationForm.g.cs
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\App.g.cs
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration_MarkupCompile.cache
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration.g.resources
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration.Properties.Resources.resources
+C:\Users\Apple\Desktop\StudentRegistrate\StudentRegistration\obj\x86\Debug\StudentRegistration.csproj.GenerateResource.Cache
